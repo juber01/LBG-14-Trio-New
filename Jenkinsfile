@@ -36,6 +36,7 @@ pipeline{
                              echo 'Push not required!'
                              '''
                         }
+                    }
                 }
             }
             stage('Cleanup Jenkins'){
@@ -75,4 +76,5 @@ pipeline{
                     }
                 }
             }
+        }
 }
