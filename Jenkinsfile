@@ -55,6 +55,7 @@ pipeline{
                              echo 'No Clean up required!'
                              '''
                         }
+                    }
                 }
             }
             stage('Deploy Containers'){
@@ -73,5 +74,5 @@ pipeline{
                         }
                     }
                 }
-        }
+            }
 }
